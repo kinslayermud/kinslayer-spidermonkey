@@ -1,0 +1,245 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:718: checking host system type
+configure:739: checking target system type
+configure:757: checking build system type
+configure:817: checking for mawk
+configure:1888: checking for gcc
+configure:2001: checking whether the C compiler (gcc  ) works
+configure:2017: gcc -o conftest    conftest.c  1>&5
+configure:2014:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ 2014 | main(){return(0);}
+      | ^~~~
+configure:2043: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:2048: checking whether we are using GNU C
+configure:2076: checking whether gcc accepts -g
+configure:2112: checking for c++
+configure:2144: checking whether the C++ compiler (c++  ) works
+configure:2160: c++ -o conftest    conftest.C  1>&5
+configure:2186: checking whether the C++ compiler (c++  ) is a cross-compiler
+configure:2191: checking whether we are using GNU C++
+configure:2219: checking whether c++ accepts -g
+configure:2253: checking for ranlib
+configure:2285: checking for as
+configure:2339: checking for ar
+configure:2374: checking for ld
+configure:2409: checking for strip
+configure:2444: checking for windres
+configure:2783: checking whether gcc and cc understand -c and -o together
+configure:2843: checking how to run the C preprocessor
+configure:2923: checking how to run the C++ preprocessor
+configure:3041: checking for a BSD compatible install
+configure:3094: checking whether ln -s works
+configure:3119: checking for perl5
+configure:3173: checking for minimum required perl version >= 5.006
+configure:3184: checking for full perl installation
+configure:3199: checking for python
+configure:3259: checking for doxygen
+configure:3308: checking for whoami
+configure:3357: checking for autoconf
+configure:3406: checking for unzip
+configure:3457: checking for zip
+configure:3511: checking for makedepend
+configure:3559: checking for xargs
+configure:3916: checking for gmake
+configure:3975: checking for X
+configure:4289: checking for dnet_ntoa in -ldnet
+configure:4330: checking for dnet_ntoa in -ldnet_stub
+configure:4378: checking for gethostbyname
+configure:4476: checking for connect
+configure:4568: checking for remove
+configure:4660: checking for shmat
+configure:4761: checking for IceConnectionNumber in -lICE
+configure:5235: checking whether the compiler supports -Wno-invalid-offsetof
+configure:5258: c++ -c  -fno-strict-aliasing -Wno-invalid-offsetof  conftest.C 1>&5
+configure:5285: checking whether the compiler supports -Wno-variadic-macros
+configure:5308: c++ -c  -fno-strict-aliasing -Wno-variadic-macros  conftest.C 1>&5
+configure:5343: checking whether ld has archive extraction flags
+configure:5400: checking that static assertion macros used in autoconf tests work
+configure:5512: checking for 64-bit OS
+configure:5521: gcc -c  -fno-strict-aliasing  conftest.c 1>&5
+configure:7251: checking for ANSI C header files
+configure:7355: checking for working const
+configure:7430: checking for mode_t
+configure:7463: checking for off_t
+configure:7496: checking for pid_t
+configure:7529: checking for size_t
+configure:7562: checking for st_blksize in struct stat
+configure:7596: checking for siginfo_t
+configure:7634: checking for stdint.h
+configure:7880: checking for the size of void*
+configure:7935: checking for the alignment of void*
+configure:7979: checking for the size of double
+configure:8020: checking for int16_t
+configure:8055: checking for int32_t
+configure:8090: checking for int64_t
+configure:8125: checking for int64
+configure:8160: checking for uint
+configure:8195: checking for uint_t
+configure:8230: checking for uint16_t
+configure:8274: checking for uname.domainname
+configure:8311: checking for uname.__domainname
+configure:8357: checking for visibility(hidden) attribute
+configure:8382: checking for visibility(default) attribute
+configure:8407: checking for visibility pragma support
+configure:8432: checking For gcc visibility bug with class-level attributes (GCC bug 26905)
+configure:8460: checking For x86_64 gcc visibility bug with builtins (GCC bug 20297)
+configure:8513: checking for dirent.h that defines DIR
+configure:8551: checking for opendir in -ldir
+configure:8643: checking for sys/byteorder.h
+configure:8643: checking for compat.h
+configure:8643: checking for getopt.h
+configure:8683: checking for sys/bitypes.h
+configure:8683: checking for memory.h
+configure:8683: checking for unistd.h
+configure:8723: checking for gnu/libc-version.h
+configure:8723: checking for nl_types.h
+configure:8763: checking for malloc.h
+configure:8803: checking for X11/XKBlib.h
+configure:8844: checking for sys/statvfs.h
+configure:8844: checking for sys/statfs.h
+configure:8844: checking for sys/vfs.h
+configure:8844: checking for sys/mount.h
+configure:8885: checking for mmintrin.h
+configure:8932: checking for new
+configure:9034: checking for sys/cdefs.h
+configure:9078: checking for gethostbyname_r in -lc_r
+configure:9136: checking for atan in -lm
+configure:9183: checking for dlopen in -ldl
+configure:9219: checking for dlfcn.h
+configure:9266: checking for dladdr
+configure:9429: checking for socket in -lsocket
+configure:9484: checking for pthread_create in -lpthreads
+gcc -o dummy dummy.c  -fno-strict-aliasing  -lpthreads  -ldl -lm 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+configure:9507: checking for pthread_create in -lpthread
+gcc -o dummy dummy.c  -fno-strict-aliasing  -lpthread  -ldl -lm 
+configure:9612: checking whether gcc accepts -pthread
+configure:9730: checking whether mmap() sees write()s
+configure:9773: gcc -o conftest  -fno-strict-aliasing -pthread  -lpthread  conftest.c -ldl -lm  1>&5
+configure:9798: checking whether gcc needs -traditional
+configure:9844: checking for 8-bit clean memcmp
+configure:9885: checking for fchmod
+configure:9885: checking for flockfile
+configure:9885: checking for getc_unlocked
+configure:9885: checking for _getc_nolock
+configure:9885: checking for getpagesize
+configure:9885: checking for lchown
+configure:9885: checking for localtime_r
+configure:9885: checking for lstat64
+configure:9885: checking for memmove
+configure:9885: checking for random
+configure:9885: checking for rint
+configure:9885: checking for sbrk
+configure:9885: checking for snprintf
+configure:9885: checking for stat64
+configure:9885: checking for statvfs
+configure:9885: checking for statvfs64
+configure:9885: checking for strerror
+configure:9885: checking for strtok_r
+configure:9885: checking for truncate64
+configure:9946: gcc -o conftest  -fno-strict-aliasing -pthread  -lpthread  conftest.c -ldl -lm  1>&5
+configure:9940:10: fatal error: windows.h: No such file or directory
+ 9940 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+configure: failed program was:
+#line 9939 "configure"
+#include "confdefs.h"
+#include <windows.h>
+int main() {
+SYSTEMTIME st;FILETIME ft;SystemTimeToFileTime(&st,&ft);
+; return 0; }
+configure:9970: gcc -o conftest  -fno-strict-aliasing -pthread  -lpthread  conftest.c -ldl -lm  1>&5
+configure:9964:10: fatal error: windows.h: No such file or directory
+ 9964 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+configure: failed program was:
+#line 9963 "configure"
+#include "confdefs.h"
+#include <windows.h>
+int main() {
+FILETIME ft;GetSystemTimeAsFileTime(&ft);
+; return 0; }
+configure:9997: checking for wcrtomb
+configure:10029: checking for mbrtowc
+configure:10070: checking for res_ninit()
+configure:10117: checking for gnu_get_libc_version()
+configure:10162: checking for iconv in -lc
+configure:10293: checking for iconv()
+configure:10336: checking for iconv() with const input
+configure:10392: checking for an implementation of va_copy()
+configure:10433: checking for an implementation of __va_copy()
+configure:10474: checking whether va_lists can be copied by value
+configure:10597: checking for C++ exceptions flag
+configure:10632: checking for gcc 3.0 ABI
+configure:10674: checking for C++ "explicit" keyword
+configure:10710: checking for C++ "typename" keyword
+configure:10755: checking for modern C++ template specialization syntax support
+configure:10792: checking whether partial template specialization works
+configure:10826: checking whether operators must be re-defined for templates derived from templates
+configure:10865: checking whether we need to cast a derived template to pass as its base class
+configure:10900: checking whether the compiler can resolve const ambiguities for templates
+configure:10948: checking whether the C++ "using" keyword can change access
+configure:11000: checking whether the C++ "using" keyword resolves ambiguity
+configure:11042: checking for "std::" namespace
+configure:11075: checking whether standard template operator!=() is ambiguous
+configure:11112: checking for C++ reinterpret_cast
+configure:11146: checking for C++ dynamic_cast to void*
+configure:11197: checking whether C++ requires implementation of unused virtual methods
+configure:11232: checking for trouble comparing to zero near std::operator!=()
+configure:11280: checking for LC_MESSAGES
+configure:11677: checking for valid optimization flags
+configure:11688: gcc -c  -fno-strict-aliasing -pthread -Os -freorder-blocks -fno-reorder-functions   conftest.c 1>&5
+configure:12256: checking for __cxa_demangle
+configure:12335: checking for unwind.h
+configure:12364: checking for _Unwind_Backtrace
+configure:12441: checking for gcc -pipe support
+dummy-hello.c: In function 'main':
+dummy-hello.c:2:21: warning: missing terminating " character
+    2 | int main() { printf("Hello World
+      |                     ^
+dummy-hello.c:2:21: error: missing terminating " character
+    2 | int main() { printf("Hello World
+      |                     ^~~~~~~~~~~~
+dummy-hello.c:3:1: warning: missing terminating " character
+    3 | "); exit(0); }
+      | ^
+dummy-hello.c:3:1: error: missing terminating " character
+    3 | "); exit(0); }
+      | ^~~~~~~~~~~~~~
+dummy-hello.c:3:1: error: expected expression at end of input
+dummy-hello.c:3:1: error: expected declaration or statement at end of input
+configure:12463: gcc -c  -fno-strict-aliasing -pthread -pipe  conftest.c 1>&5
+configure:12505: checking whether compiler supports -Wno-long-long
+configure:12514: gcc -c  -fno-strict-aliasing -pthread -pipe -Wno-long-long  conftest.c 1>&5
+configure:12550: checking whether C compiler supports -fprofile-generate
+configure:12559: gcc -c  -fno-strict-aliasing -pthread -pipe -fprofile-generate  conftest.c 1>&5
+configure:12658: checking whether C++ compiler has -pedantic long long bug
+configure:12667: c++ -c  -fno-strict-aliasing -pthread -pipe  -Wall -Wpointer-arith -Woverloaded-virtual -Wsynth -Wno-ctor-dtor-privacy -Wno-non-virtual-dtor -Wcast-align -Wno-invalid-offsetof -Wno-variadic-macros -Wno-long-long -pedantic  conftest.C 1>&5
+configure: In function 'int main()':
+configure:12664:68: warning: typedef 'static_assert_line_12667' locally defined but not used [-Wunused-local-typedefs]
+12664 | ; return 0; }
+      |                                                                    ^                  
+configure:12663:55: note: in expansion of macro 'CONFIGURE_STATIC_ASSERT_IMPL2'
+12663 | CONFIGURE_STATIC_ASSERT(sizeof(long long) == 8)
+      |                                                       ^                            
+configure:12662:44: note: in expansion of macro 'CONFIGURE_STATIC_ASSERT_IMPL'
+12662 | int main() {
+      |                                            ^                           
+configure:12667:1: note: in expansion of macro 'CONFIGURE_STATIC_ASSERT'
+12667 |   rm -rf conftest*
+      | ^ ~~~~~~~~~~~~~~~~     
+configure:12692: checking for correct temporary object destruction order
+configure:12720: c++ -o conftest  -fno-strict-aliasing -pthread -pipe  -lpthread  conftest.C -ldl -lm  1>&5
+configure:12741: checking for correct overload resolution with const and templates
+configure:12776: c++ -c  -fno-strict-aliasing -pthread -pipe  -Wall -Wpointer-arith -Woverloaded-virtual -Wsynth -Wno-ctor-dtor-privacy -Wno-non-virtual-dtor -Wcast-align -Wno-invalid-offsetof -Wno-variadic-macros -Wno-long-long -pedantic  conftest.C 1>&5
+configure: In function 'int main()':
+configure:12771:34: warning: 'bar' is used uninitialized in this function [-Wuninitialized]
+12771 |                       return foo == bar;
+      |                              ~~~~^~~~~~
+configure:12799: checking for tm_zone tm_gmtoff in struct tm
+configure:13372: checking for setlocale
