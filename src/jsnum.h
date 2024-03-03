@@ -97,6 +97,8 @@ JSDOUBLE_IS_FINITE(jsdouble d)
 {
 #ifdef WIN32
     return _finite(d);
+#elif __APPLE__
+    return isfinite(d);
 #else
     return finite(d);
 #endif
