@@ -911,8 +911,10 @@ case "$target" in
     if test -z "$MIDL"; then MIDL=midl; fi
     ;;
 *-darwin*)
-    if test -z "$CC"; then CC=gcc-4.2; fi
-    if test -z "$CXX"; then CXX=g++-4.2; fi
+    #if test -z "$CC"; then CC=gcc-4.2; fi
+    #if test -z "$CXX"; then CXX=g++-4.2; fi
+    if test -z "$CC"; then CC=gcc; fi
+    if test -z "$CXX"; then CXX=g++; fi
     ;;
 esac
 fi
@@ -3190,7 +3192,7 @@ else
     echo "$ac_t""yes" 1>&6    
 fi
 
-  for ac_prog in $PYTHON python
+  for ac_prog in $PYTHON python3
 do
 # Extract the first word of "$ac_prog", so it can be a program name with args.
 set dummy $ac_prog; ac_word=$2
@@ -7164,6 +7166,16 @@ i?86-*)
 EOF
 
     ;;
+arm-apple*)
+    cat >> confdefs.h <<\EOF
+#define AVMPLUS_ARM 1
+EOF
+
+    cat >> confdefs.h <<\EOF
+#define AVMPLUS_64BIT 1
+EOF
+
+    ;;
 x86_64*-*)
     cat >> confdefs.h <<\EOF
 #define AVMPLUS_AMD64 1
@@ -7186,6 +7198,7 @@ sparc-*)
 EOF
 
     ;;
+
 esac
 
 case "$target_os" in
@@ -7683,7 +7696,7 @@ else
 int main() {
 
                      int a[sizeof ($type) == 1 ? 1 : -1];
-                     return;
+                     return 0;
                    
 ; return 0; }
 EOF
@@ -7724,7 +7737,7 @@ else
 int main() {
 
                      int a[sizeof ($type) == 2 ? 1 : -1];
-                     return;
+                     return 0;
                    
 ; return 0; }
 EOF
@@ -7765,7 +7778,7 @@ else
 int main() {
 
                      int a[sizeof ($type) == 4 ? 1 : -1];
-                     return;
+                     return 0;
                    
 ; return 0; }
 EOF
@@ -7806,7 +7819,7 @@ else
 int main() {
 
                      int a[sizeof ($type) == 8 ? 1 : -1];
-                     return;
+                     return 0;
                    
 ; return 0; }
 EOF
@@ -7847,7 +7860,7 @@ else
 int main() {
 
                      int a[sizeof ($type) == sizeof (void *) ? 1 : -1];
-                     return;
+                     return 0;
                    
 ; return 0; }
 EOF
@@ -7890,7 +7903,7 @@ else
 int main() {
 
                      int a[sizeof (void*) == $size ? 1 : -1];
-                     return;
+                     return 0;
                    
 ; return 0; }
 EOF
@@ -7948,7 +7961,7 @@ else
 int main() {
 
                      int a[offsetof(struct aligner, a) == $align ? 1 : -1];
-                     return;
+                     return 0;
                    
 ; return 0; }
 EOF
@@ -7989,7 +8002,7 @@ else
 int main() {
 
                      int a[sizeof (double) == $size ? 1 : -1];
-                     return;
+                     return 0;
                    
 ; return 0; }
 EOF
