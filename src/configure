@@ -10615,11 +10615,11 @@ else
 
   ${CXX-g++} ${CXXFLAGS} -c -fno-handle-exceptions conftest.C > conftest.out 2>&1
 
-  if egrep "warning.*renamed" conftest.out >/dev/null; then
-    ac_cv_cxx_exceptions_flags=${_COMPILER_PREFIX}-fno-exceptions
-  else
-    ac_cv_cxx_exceptions_flags=${_COMPILER_PREFIX}-fno-handle-exceptions
-  fi
+  #if egrep "warning.*renamed" conftest.out >/dev/null; then
+  #  ac_cv_cxx_exceptions_flags=${_COMPILER_PREFIX}-fno-exceptions
+  #else
+  #  ac_cv_cxx_exceptions_flags=${_COMPILER_PREFIX}-fno-handle-exceptions
+  #fi
 
   rm -f conftest*
 fi
