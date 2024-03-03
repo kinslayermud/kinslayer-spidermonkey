@@ -5,3 +5,15 @@ src/config.status
 src/config/autoconf.mk
 src/a.out
 src/*.o
+src/js-confdefs.h
+src/js-config
+src/.deps
+src/jscpucfg
+src/jsautooplen.h
+src/jsautokw.h
+src/jsautocfg.h
+src/config/*.o
+src/config/nfspwd
+src/config/nsinstall
+src/host_jskwgen
+src/host_jsoplengen
